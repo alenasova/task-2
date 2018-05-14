@@ -72,7 +72,7 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 * background-color: red | #327a15 | rgba(10, 20, 30, 0.5)
 
 # Задание2
-rainbow.html
+![Радуга](rainbow.png)
 
 ## Постановка задачи
 * Цветной объект должен иметь диаметр 700 пикселей.
