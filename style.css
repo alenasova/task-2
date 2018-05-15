@@ -7,10 +7,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgb(21, 35, 92), rgba(175, 175, 110, 0.993));
+    background: linear-gradient(rgb(50, 72, 146), rgba(114, 114, 63, 0.993));
     overflow: hidden;
 }
-.circle-red {
+/*.circle-red {
     width: 700px;
     height: 700px;
     background-color: red;
@@ -47,11 +47,21 @@
     height: 520px;
     background-color: rgb(63, 16, 107);
 }
-.shadow {
-    width: 490px;
-    height: 490px;
-    background-color: rgba(175, 175, 110, 0.993);
-    box-shadow: inset 0px 0px 100px 5px rgb(21, 35, 92);
+*/
+.rainbow {
+    width: 600px;
+    height: 600px;
+    background: rgba(0, 0, 0, 0 100%);
+    box-shadow: 0px 0px 0px 20px rgb(208, 0, 250),
+                0px 0px 0px 40px rgb(46, 0, 250),
+                0px 0px 0px 60px rgb(0, 179, 250),
+                0px 0px 0px 80px rgb(0, 250, 42),
+                0px 0px 0px 100px rgba(250,200,0,1),
+                0px 0px 0px 120px rgba(233,250,0,1),
+                0px 0px 0px 140px rgba(250,0,0,1);
+    position: absolute;
+    bottom: -350px;
+    /*border: solid black;*/
 }
 .circle {
     display: flex;
